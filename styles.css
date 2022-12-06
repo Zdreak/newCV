@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+    background-color: rgb(234, 227, 218);
+    color:rgb(8, 8, 8);
+
+    font: normal 16px 'Roboto', sans-serif;
+}
+
+.conteiner{
+    max-width: 750px;
+    margin: auto;
+    
+}
+.info{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+a{
+   color: black; 
+   text-decoration:none
+}
+
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: blue;
+}
+
+a:visited{
+    color: rgb(66, 65, 65);
+}
+
+.foto{
+    width: 300px;
+    border-radius: 28px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 50);
+}
+
+.box{
+    padding: 15px 20px;
+    background: red;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.box h3{
+    margin-bottom: 15px;
+}
+
+.list{
+    padding: 0 25px;
+}
+
+.list li{
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+.table{
+    width: 100%;
+}
+
+.table td{
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(1){
+    font-size: large;
+}
+
+.bg-yellow{
+    background: #fff9dc;
+}
+
+.bg-green{
+    background: #e5ffe7;
+}
+
+.bg-red{
+    background: #ffe5e5;
+}
+
+.email h2{
+    text-align: center;
+}
+
+.form-box label{
+    display: block;
+    font-size: 16px;
+}
+
+.form-box1{
+    font-size: 16px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-box{
+    width: 50%;
+    
+}
+
+.row > .form-box:first-child{
+    margin-right: 20px;
+}
+
+.form-box input,
+.form-box textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0px 10px;
+    outline: none;
+    font-family: inherit;
+    
+}
+
+
+#aboutme{
+    margin-bottom: 20px;
+    margin-left: 40px;
+    /* color:rgb(138, 18, 60);
+    margin: 0;
+    font-size: medium;
+    text-decoration:none;
+    font-weight:bolder; */
+}
+
+
+/* .media{
+    background-color: rgb(212, 127, 144);
+    padding: 15px;
+    border: 10px double #9b4e6f;
+    border-bottom-style: solid;
+    margin: 5px;
+} */
+
+.box_model {
+    /* float: left;
+    background: black;
+    height: 200px;
+    width: 25%;
+    border: red solid 4px;
+    box-sizing: border-box; */
+    margin-bottom: 500px;
+} 
+
+.btm{
+    background: #000;
+    padding: 15px 20px;
+    color: aliceblue;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btm:hover{
+    opacity: 0.9;
+}
+
+@media (max-width: 500px) {
+    .info{
+        text-align: center;
+        display: block;
+    }
+}
